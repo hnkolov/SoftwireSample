@@ -58,15 +58,6 @@ namespace Sample
 	  {
 		 return currentYear - age;
 	  }
-
-	  public static int Main()
-	  {
-		 Person Niko = new Person(21, "Niko");
-		 Console.WriteLine(Niko.BasicInfo());
-		 Console.WriteLine("This is a main program");
-		 Thread.Sleep(2000);
-		 return 0;
-	  }
    }
 
 }
